@@ -15,3 +15,8 @@
 /favorites/{id} - JSON-об'єкт зі списку /favorites за ідентифікатором з числовим значенням {id}. Якщо об'єкта із таким значенням id не було знайдено, повертати у відповідь HTTP статус 404 Not Found.
 /file - зчитати вміст файлу data.txt, який попередньо розмістити у директорії data/ проекту. Відправити клієнту JSON-об'єкт, що містить у собі інформацію про назву, розмір (у байтах) і текстовий вміст файлу.
 /file/data - у відповідь клієнту відправити JSON-об'єкт із інформацією про найбільшу та найменшу цифру у файлі (файл data.txt).
+
+[![Travis-CI][travis-badge]][travis-builds]
+
+[travis-badge]: https://travis-ci.org/lomayka/lab8.svg?branch=master
+[travis-builds]: https://travis-ci.org/lomayka/lab8/builds`
