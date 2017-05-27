@@ -1,5 +1,10 @@
 <div class="col-md-8 wrap">
 
+[![Travis-CI][travis-badge]][travis-builds]
+
+[travis-badge]: https://travis-ci.org/lomayka/lab8.svg?branch=master
+[travis-builds]: https://travis-ci.org/lomayka/lab8/builds`
+
 ## HTTP сервер
 
 #### Мета:
@@ -132,8 +137,3 @@ Doxygen створить директорію `docs/` із піддиректо�
 2.  [Лекція. World Wide Web (WWW). URL. Протокол HTTP](https://docs.google.com/document/d/1aUdlTlbHDYhhdf2gVs1j94FmBrLviKb8QLfFVxqi-0A/edit#heading=h.1ii1x15xikxx)
 
 </div>
-
-[![Travis-CI][travis-badge]][travis-builds]
-
-[travis-badge]: https://travis-ci.org/lomayka/lab8.svg?branch=master
-[travis-builds]: https://travis-ci.org/lomayka/lab8/builds`
