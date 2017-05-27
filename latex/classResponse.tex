@@ -1,0 +1,69 @@
+\hypertarget{classResponse}{}\section{Response Class Reference}
+\label{classResponse}\index{Response@{Response}}
+
+
+defines a server response  
+
+
+
+
+{\ttfamily \#include $<$response.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classResponse_a4aa348a5a74a51eae1483b7a0f7fcea3}{Response} (\hyperlink{classRequest}{Request} $\ast$request, vector$<$ \hyperlink{classPet}{Pet} $\ast$ $>$ pets)
+\begin{DoxyCompactList}\small\item\em public constructor for \hyperlink{classResponse}{Response} that process vector of pets according to request \end{DoxyCompactList}\item 
+\hyperlink{classResponse_a2a4a6403aaefce73725f17cf63896f84}{$\sim$\+Response} ()\hypertarget{classResponse_a2a4a6403aaefce73725f17cf63896f84}{}\label{classResponse_a2a4a6403aaefce73725f17cf63896f84}
+
+\begin{DoxyCompactList}\small\item\em default public destructor for \hyperlink{classResponse}{Response} \end{DoxyCompactList}\item 
+string \hyperlink{classResponse_a517690400a7b7091d03e917f335f7f28}{message} ()
+\begin{DoxyCompactList}\small\item\em get message from \hyperlink{classResponse}{Response} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+defines a server response 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Response@{Response}!Response@{Response}}
+\index{Response@{Response}!Response@{Response}}
+\subsubsection[{\texorpdfstring{Response(\+Request $\ast$request, vector$<$ Pet $\ast$ $>$ pets)}{Response(Request *request, vector< Pet * > pets)}}]{\setlength{\rightskip}{0pt plus 5cm}Response\+::\+Response (
+\begin{DoxyParamCaption}
+\item[{{\bf Request} $\ast$}]{request, }
+\item[{vector$<$ {\bf Pet} $\ast$ $>$}]{pets}
+\end{DoxyParamCaption}
+)}\hypertarget{classResponse_a4aa348a5a74a51eae1483b7a0f7fcea3}{}\label{classResponse_a4aa348a5a74a51eae1483b7a0f7fcea3}
+
+
+public constructor for \hyperlink{classResponse}{Response} that process vector of pets according to request 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & -\/ \hyperlink{classRequest}{Request} from client to process data \\
+\hline
+{\em pets} & vector of places that processed according to request \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Response@{Response}!message@{message}}
+\index{message@{message}!Response@{Response}}
+\subsubsection[{\texorpdfstring{message()}{message()}}]{\setlength{\rightskip}{0pt plus 5cm}string Response\+::message (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classResponse_a517690400a7b7091d03e917f335f7f28}{}\label{classResponse_a517690400a7b7091d03e917f335f7f28}
+
+
+get message from \hyperlink{classResponse}{Response} 
+
+\begin{DoxyReturn}{Returns}
+message that contained in \hyperlink{classResponse}{Response} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{response_8h}{response.\+h}\item 
+src/response.\+cpp\end{DoxyCompactItemize}

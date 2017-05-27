@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/pestis/cprojects/lab8/build",
+  "command": "/usr/bin/c++    -I/home/pestis/cprojects/lab8/include  -std=c++11 -Werror -Wall -O3 -DNDEBUG   -o CMakeFiles/lab8.dir/main.cpp.o -c /home/pestis/cprojects/lab8/main.cpp",
+  "file": "/home/pestis/cprojects/lab8/main.cpp"
+},
+{
+  "directory": "/home/pestis/cprojects/lab8/build",
+  "command": "/usr/bin/c++    -I/home/pestis/cprojects/lab8/include  -std=c++11 -Werror -Wall -O3 -DNDEBUG   -o CMakeFiles/lab8.dir/src/response.cpp.o -c /home/pestis/cprojects/lab8/src/response.cpp",
+  "file": "/home/pestis/cprojects/lab8/src/response.cpp"
+},
+{
+  "directory": "/home/pestis/cprojects/lab8/build",
+  "command": "/usr/bin/c++    -I/home/pestis/cprojects/lab8/include  -std=c++11 -Werror -Wall -O3 -DNDEBUG   -o CMakeFiles/lab8.dir/src/pet.cpp.o -c /home/pestis/cprojects/lab8/src/pet.cpp",
+  "file": "/home/pestis/cprojects/lab8/src/pet.cpp"
+},
+{
+  "directory": "/home/pestis/cprojects/lab8/build",
+  "command": "/usr/bin/c++    -I/home/pestis/cprojects/lab8/include  -std=c++11 -Werror -Wall -O3 -DNDEBUG   -o CMakeFiles/lab8.dir/src/parser.cpp.o -c /home/pestis/cprojects/lab8/src/parser.cpp",
+  "file": "/home/pestis/cprojects/lab8/src/parser.cpp"
+},
+{
+  "directory": "/home/pestis/cprojects/lab8/build",
+  "command": "/usr/bin/c++    -I/home/pestis/cprojects/lab8/include  -std=c++11 -Werror -Wall -O3 -DNDEBUG   -o CMakeFiles/lab8.dir/src/request.cpp.o -c /home/pestis/cprojects/lab8/src/request.cpp",
+  "file": "/home/pestis/cprojects/lab8/src/request.cpp"
+}
+]

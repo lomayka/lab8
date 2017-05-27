@@ -1,0 +1,129 @@
+\hypertarget{parser_8h}{}\section{include/parser.h File Reference}
+\label{parser_8h}\index{include/parser.\+h@{include/parser.\+h}}
+
+
+Json parser for responce strings.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$pet.\+h$>$}\\*
+Include dependency graph for parser.\+h\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{parser_8h_aaad85158d784b681c3eb95eb62aebaff}{json\+Server\+Info} (void)
+\begin{DoxyCompactList}\small\item\em get server information \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_a4e1d57e445ce88c52f25eedfd97846d9}{json\+Pets} (vector$<$ \hyperlink{classPet}{Pet} $\ast$ $>$ pets)
+\begin{DoxyCompactList}\small\item\em get all Pets converted to J\+Son string \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_ace9122883822523fe814954df3a1d3b6}{json\+Pets\+By\+Key} (vector$<$ \hyperlink{classPet}{Pet} $\ast$ $>$ pets, string key, string value)
+\begin{DoxyCompactList}\small\item\em get all Pets with keys mathing values \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_a3f4aa6a8cfdfcc67f3f56a0d35b8afdd}{json\+File} (string file\+Path)
+\begin{DoxyCompactList}\small\item\em get information about file \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_a268f70375a4445ca0a38fee2fb2690fc}{json\+File\+Content} (string file\+Path)
+\begin{DoxyCompactList}\small\item\em get information about file content \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Json parser for responce strings. 
+
+
+
+\subsection{Function Documentation}
+\index{parser.\+h@{parser.\+h}!json\+File@{json\+File}}
+\index{json\+File@{json\+File}!parser.\+h@{parser.\+h}}
+\subsubsection[{\texorpdfstring{json\+File(string file\+Path)}{jsonFile(string filePath)}}]{\setlength{\rightskip}{0pt plus 5cm}string json\+File (
+\begin{DoxyParamCaption}
+\item[{string}]{file\+Path}
+\end{DoxyParamCaption}
+)}\hypertarget{parser_8h_a3f4aa6a8cfdfcc67f3f56a0d35b8afdd}{}\label{parser_8h_a3f4aa6a8cfdfcc67f3f56a0d35b8afdd}
+
+
+get information about file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & -\/ path to file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string in Json format that contain information about file 
+\end{DoxyReturn}
+\index{parser.\+h@{parser.\+h}!json\+File\+Content@{json\+File\+Content}}
+\index{json\+File\+Content@{json\+File\+Content}!parser.\+h@{parser.\+h}}
+\subsubsection[{\texorpdfstring{json\+File\+Content(string file\+Path)}{jsonFileContent(string filePath)}}]{\setlength{\rightskip}{0pt plus 5cm}string json\+File\+Content (
+\begin{DoxyParamCaption}
+\item[{string}]{file\+Path}
+\end{DoxyParamCaption}
+)}\hypertarget{parser_8h_a268f70375a4445ca0a38fee2fb2690fc}{}\label{parser_8h_a268f70375a4445ca0a38fee2fb2690fc}
+
+
+get information about file content 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & -\/ path to file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string in Json format that contain information about file content 
+\end{DoxyReturn}
+\index{parser.\+h@{parser.\+h}!json\+Pets@{json\+Pets}}
+\index{json\+Pets@{json\+Pets}!parser.\+h@{parser.\+h}}
+\subsubsection[{\texorpdfstring{json\+Pets(vector$<$ Pet $\ast$ $>$ pets)}{jsonPets(vector< Pet * > pets)}}]{\setlength{\rightskip}{0pt plus 5cm}string json\+Pets (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Pet} $\ast$ $>$}]{pets}
+\end{DoxyParamCaption}
+)}\hypertarget{parser_8h_a4e1d57e445ce88c52f25eedfd97846d9}{}\label{parser_8h_a4e1d57e445ce88c52f25eedfd97846d9}
+
+
+get all Pets converted to J\+Son string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pets} & -\/ vector of all my Pets (cannot pick my favorites, becouse all of pets are cool) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Json string of my pets 
+\end{DoxyReturn}
+\index{parser.\+h@{parser.\+h}!json\+Pets\+By\+Key@{json\+Pets\+By\+Key}}
+\index{json\+Pets\+By\+Key@{json\+Pets\+By\+Key}!parser.\+h@{parser.\+h}}
+\subsubsection[{\texorpdfstring{json\+Pets\+By\+Key(vector$<$ Pet $\ast$ $>$ pets, string key, string value)}{jsonPetsByKey(vector< Pet * > pets, string key, string value)}}]{\setlength{\rightskip}{0pt plus 5cm}string json\+Pets\+By\+Key (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Pet} $\ast$ $>$}]{pets, }
+\item[{string}]{key, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{parser_8h_ace9122883822523fe814954df3a1d3b6}{}\label{parser_8h_ace9122883822523fe814954df3a1d3b6}
+
+
+get all Pets with keys mathing values 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pets} & -\/ vector of all my pets \\
+\hline
+{\em key} & -\/ field of used data \\
+\hline
+{\em value} & -\/ content of the field to search by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{parser.\+h@{parser.\+h}!json\+Server\+Info@{json\+Server\+Info}}
+\index{json\+Server\+Info@{json\+Server\+Info}!parser.\+h@{parser.\+h}}
+\subsubsection[{\texorpdfstring{json\+Server\+Info(void)}{jsonServerInfo(void)}}]{\setlength{\rightskip}{0pt plus 5cm}string json\+Server\+Info (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{parser_8h_aaad85158d784b681c3eb95eb62aebaff}{}\label{parser_8h_aaad85158d784b681c3eb95eb62aebaff}
+
+
+get server information 
+
+\begin{DoxyReturn}{Returns}
+return Json string of server information 
+\end{DoxyReturn}

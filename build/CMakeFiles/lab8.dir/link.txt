@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Werror -Wall -O3 -DNDEBUG   CMakeFiles/lab8.dir/main.cpp.o CMakeFiles/lab8.dir/src/response.cpp.o CMakeFiles/lab8.dir/src/pet.cpp.o CMakeFiles/lab8.dir/src/parser.cpp.o CMakeFiles/lab8.dir/src/request.cpp.o  -o lab8 -rdynamic -lprogbase-cpp -lprogbase -lssl -ljansson 
